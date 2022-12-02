@@ -6,23 +6,20 @@
   <title>JS</title>
  </head>
  <body>
-	<h3>demo on var - let </h3>
-	<script>
-		var a=100;
-		document.write("a "+a+"<br>");
-		var a="rama";		//re-declaration
-		document.write("a	"+a+"<br>");
-		var a=true;  //re-declaration
-		document.write("a	"+a+"<br>");
-		//let a=1.5;	error
+	<h3>Arithmatic Calc</h3>
+	<input type="text" id="tf1" placeholder="enter first number"/> <bR>
+	<input type="text" id="tf2" placeholder="enter second number"/> <bR>
+<!-- <button onclick="document.write(parseInt(tf1.value)+parseInt(tf2.value))">Add</button>
+			-->
+		<button onclick="res.value=parseInt(tf1.value)+parseInt(tf2.value)"> + </button>
+		<button onclick="res.value=tf1.value-tf2.value"> - </button>
+		<button onclick="res.value=tf1.value*tf2.value"> * </button>
+		<button onclick="res.value=tf1.value/tf2.value"> / </button>
+		<button onclick="res.value=tf1.value%tf2.value"> % </button>
+		<button onclick="res.value=tf1.value**tf2.value"> ^ </button>
 
-		x=100;
-		document.write("x "+x+"<bR>");
-		y="apple";
-		document.write("y "+y+"<bR>");
-		var x, y;	//hoisting sup
-		//let x,y;		error	 
-	</script>
+	<br> <bR>
+	<output id="res"></output> 
 	 
  </body>
 </html>
