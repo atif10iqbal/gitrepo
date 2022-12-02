@@ -1,37 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <style>
-  div{
-  	display:grid;
-	grid-template-columns:auto auto auto;
-	}
-  </style>
- </head>
- <style>
- body {
-  background-color: #ffff66;
-}
-</style>
+<html>
+<head>
+<body style="background-color:crimson;">
+<h1><p fpnt color="blue">MY NAME IS ATIF IQBAL</h1>
+<h2>MY NAME IS ATIF IQBAL</h2>
+<h3>MY NAME IS ATIF IQBAL</h3>
+<h4>MY NAME IS ATIF IQBAL</h4>
+<h5>MY NAME IS ATIF IQBAL</h5>
+<h6>MY NAME IS ATIF IQBAL</h6>
+<a>www.google.com</a>
+</head>
 <body>
- <div>
- <a href="first.html"></a>
-<h3 style="color:Tomato;">Hello World</h3>
- <h1 style="background-color:#0033ff;">January</ h1>
- <h1 style="background-color:#009966;">February</h1>
- <h1 style="background-color:#00cc33;">March</h1>
- <h1 style="background-color:#00cc33;">April</h1>
- <h1 style="background-color:#3366ff;">May</h1>
- <h1 style="background-color:#00cc33;">June</h1>
- <h1 style="background-color:#00cc33;">July</h1>
- <h1 style="background-color:#00cc33;">August</h1>
- <h1 style="background-color:#00cc33;">September</h1>
- <h1 style="background-color:#ff6666;">October</h1>
- <h1 style="background-color:#ff3399;">November</h1>
- <h1 style="background-color:#cc3333;">December</h1>
- </div>
- <p style="background-color:Tomato;">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
- </body>
+<h1><i><b><center>MY HOME</b></i></h1>
+<p><h4><center>I am living with my parents. <br>I have three elder brothers and four elder sisters.</h4><br></p>
+<h1><center><font color="blue"><marquee><u>ADDRESS</marquee></u></h1>
+<h4><center>we are living in Baganshahi Road no.7, Azadnagar, Mango, Jamshedpur<br></h4></p>
+
+</body>
 </html>
+
