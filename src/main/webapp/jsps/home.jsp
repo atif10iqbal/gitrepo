@@ -1,25 +1,21 @@
-<!-- example on JS-->
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <title>JS</title>
- </head>
- <body>
-	<h3>Arithmatic Calc</h3>
-	<input type="text" id="tf1" placeholder="enter first number"/> <bR>
-	<input type="text" id="tf2" placeholder="enter second number"/> <bR>
-<!-- <button onclick="document.write(parseInt(tf1.value)+parseInt(tf2.value))">Add</button>
-			-->
-		<button onclick="res.value=parseInt(tf1.value)+parseInt(tf2.value)"> + </button>
-		<button onclick="res.value=tf1.value-tf2.value"> - </button>
-		<button onclick="res.value=tf1.value*tf2.value"> * </button>
-		<button onclick="res.value=tf1.value/tf2.value"> / </button>
-		<button onclick="res.value=tf1.value%tf2.value"> % </button>
-		<button onclick="res.value=tf1.value**tf2.value"> ^ </button>
+<html>
+<head>
+<body style="background-color:crimson;">
+<h1><p fpnt color="blue">MY NAME IS ATIF IQBAL</h1>
+<h2>MY NAME IS ATIF IQBAL</h2>
+<h3>MY NAME IS ATIF IQBAL</h3>
+<h4>MY NAME IS ATIF IQBAL</h4>
+<h5>MY NAME IS ATIF IQBAL</h5>
+<h6>MY NAME IS ATIF IQBAL</h6>
+<a>www.google.com</a>
+</head>
+<body>
+<h1><i><b><center>MY HOME</b></i></h1>
+<p><h4><center>I am living with my parents. <br>I have three elder brothers and four elder sisters.</h4><br></p>
+<h1><center><font color="blue"><marquee><u>ADDRESS</marquee></u></h1>
+<h4><center>we are living in Baganshahi Road no.7, Azadnagar, Mango, Jamshedpur<br></h4></p>
 
-	<br> <bR>
-	<output id="res"></output> 
-	 
- </body>
+</body>
 </html>
+
