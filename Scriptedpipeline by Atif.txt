@@ -1,0 +1,27 @@
+node('built-in')
+{
+    stage('ContDown')
+    {
+        git 'https://github.com/atif10iqbal/gitrepo.git'
+    }
+    stage('ContBuild')
+    {
+        sh 'mvn package'
+    }
+    stage('create_docker_image')
+    {
+        sh 'cp /root/.jenkins/workspace/ScriptedPipeline-1/target/maven-web-application.war /root'
+        sh 'echo "COPY maven-web-application.war /usr/local/tomee/webapps/hse.war" >> /root/dockerfile'
+        sh 'docker build --no-cache -t atif10iqbal/myhtmlapp1 -f /root/dockerfile /root'
+    }
+    stage('image_push')
+    {
+        sh 'docker login'
+        sh 'docker push atif10iqbal/myhtmlapp1'
+    }
+    stage('run_image')
+    {
+        sh 'docker run --name myapp -d -p 9090:8080 atif10iqbal/myhtmlapp1'
+    }
+    
+}

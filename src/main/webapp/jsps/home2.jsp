@@ -41,13 +41,13 @@
  </head>
  <body>
 	<div>
-		<h1 id="h1">Zulquar Nain</h1>
+		<h1 id="h1">Md Sharique</h1>
 	</div>
 	<div>
 		<h1 id="h2">HSE Engineer</h1>
 	</div>
 	<div>
-		<h1 id="h3">DUBAI</h1>
+		<h1 id="h3">QATAR</h1>
 	</div>
  </body>
 </html>
