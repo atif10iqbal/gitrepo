@@ -41,13 +41,13 @@
  </head>
  <body>
 	<div>
-		<h1 id="h1">Atif Iqbal</h1>
+		<h1 id="h1">Zulquar Nain</h1>
 	</div>
 	<div>
-		<h1 id="h2">DevOps Engineer</h1>
+		<h1 id="h2">HSE Engineer</h1>
 	</div>
 	<div>
-		<h1 id="h3">Hyderabad</h1>
+		<h1 id="h3">DUBAI</h1>
 	</div>
  </body>
 </html>
