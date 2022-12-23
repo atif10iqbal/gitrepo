@@ -41,7 +41,7 @@
  </head>
  <body>
 	<div>
-		<h1 id="h1">Sadiqa Zafar</h1>
+		<h1 id="h1">Sadiqa Zafar Digam</h1>
 	</div>
 	<div>
 		<h1 id="h2">Sima perween</h1>
