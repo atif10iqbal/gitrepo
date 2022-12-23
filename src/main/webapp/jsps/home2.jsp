@@ -41,13 +41,13 @@
  </head>
  <body>
 	<div>
-		<h1 id="h1">Raja Raja Raja</h1>
+		<h1 id="h1">Sadiqa Zafar</h1>
 	</div>
 	<div>
-		<h1 id="h2">Electrical Engineer</h1>
+		<h1 id="h2">Sima perween</h1>
 	</div>
 	<div>
-		<h1 id="h3">AURANGABAD</h1>
+		<h1 id="h3">Zafar Iqubal</h1>
 	</div>
  </body>
 </html>
